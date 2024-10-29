@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Water Management </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Real-Time Water Management</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="water-management.html">Water Management</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Current Conditions</h2>
+        <div class="dashboard">
+            <div class="data">
+                <h3>Soil Moisture Level</h3>
+                <p id="soil-moisture">Loading...</p>
+            </div>
+            <div class="data">
+                <h3>Temperature</h3>
+                <p id="temperature">Loading...</p>
+            </div>
+            <div class="data">
+                <h3>Humidity</h3>
+                <p id="humidity">Loading...</p>
+            </div>
+            <div class="data">
+                <h3>Weather Forecast</h3>
+                <p id="forecast">Loading...</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Manual Irrigation Control</h2>
+        <button id="irrigationOn">Turn On Irrigation</button>
+        <button id="irrigationOff">Turn Off Irrigation</button>
+        <p id="irrigationStatus">Irrigation Status: Off</p>
+    </section>
+
+   
+
+    <script src="water-management.js"></script>
+</body>
+</html>
